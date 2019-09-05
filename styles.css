@@ -37,6 +37,5 @@ nav li:hover {
 	} 
 header {
 	 margin: 0 auto;
-	 width:75%;
-	 background-image: -webkit-linear-gradient(30deg, #9e4404  50%, #51421c 50%);
-	}
+	 width:75%;	 background-image: -webkit-linear-gradient(30deg, #9e4404  50%, #51421c 50%);
+}

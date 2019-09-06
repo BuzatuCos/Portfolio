@@ -22,7 +22,9 @@ nav {
 	margin: 0 auto;
 	overflow: auto;
 	padding: 10px;
+	text-align:center;
 }
+
 		
 nav li {
 	font-family: 'Lobster', 'cursive';
@@ -30,14 +32,20 @@ nav li {
 	 color: #ffffff;
      list-style: none;
 	 margin-right: 90px;
-	 margin-left:20px;
 	 font-size: 1.5rem;
  }
+ 
+ nav ul {
+	 overflow:auto;
+ 	 margin:0 auto;
+	 width:675px;
+  }
  
 nav li:hover {
 	color:#b69a46;
 	} 
 header {
+	width: 100%;
 	height:730px;
  	background-size:cover;
  	background-image: url("http://getwallpapers.com/wallpaper/full/b/8/8/654243.jpg");
@@ -60,8 +68,23 @@ section {
 	width:80%;
 	margin: 0 auto;
 }
+
 .h1About{
+	font-family: 'Lobster', 'cursive';
 	font-size:3rem;
-	padding:80px 50px;
+	padding:80px 120px;
 }
 
+.myImage{
+	float:left;
+    width:350px;
+	height:500px;
+	background-image: url("https://i.ibb.co/pJ9S9yf/eu.jpg");
+	background-repeat: no-repeat;
+}
+.aboutPar{
+	width:50%;
+	padding-top:90px;
+	float:right;
+	
+}

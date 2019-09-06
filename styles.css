@@ -1,11 +1,13 @@
 * {
     box-sizing: border-box;
+	margin:0;
 }
 
+html {
+	font-size: 15px;
+}
 body {
-	margin:0;
-	font-size:10px;
-	background-color:#000000;
+
 }
 nav {
 	width: 100%;
@@ -16,11 +18,13 @@ nav {
 .centerNavBar {
 	background-color: #1c1c1c;
 	border-radius: 30px;
-	width: 800px;
+	width: 80%;
 	margin: 0 auto;
 	overflow: auto;
-	padding-bottom: 10px;
+	padding: 10px;
+	text-align:center;
 }
+
 		
 nav li {
 	font-family: 'Lobster', 'cursive';
@@ -28,10 +32,59 @@ nav li {
 	 color: #ffffff;
      list-style: none;
 	 margin-right: 90px;
-	 margin-left:20px;
 	 font-size: 1.5rem;
  }
  
+ nav ul {
+	 overflow:auto;
+ 	 margin:0 auto;
+	 width:675px;
+  }
+ 
 nav li:hover {
 	color:#b69a46;
-} 
+	} 
+header {
+	width: 100%;
+	height:730px;
+ 	background-size:cover;
+ 	background-image: url("http://getwallpapers.com/wallpaper/full/b/8/8/654243.jpg");
+}
+header h1{'
+	font-family: 'Allan'," cursive";
+	padding-top:270px;
+	text-align: center;
+	font-size:4rem;
+	color: #ffffff;	
+	padding-bottom:30px;	
+}
+.myName{
+	color:#b69a46;
+}
+
+section {
+	overflow:auto;
+	height:730px;
+	width:80%;
+	margin: 0 auto;
+}
+
+.h1About{
+	font-family: 'Lobster', 'cursive';
+	font-size:3rem;
+	padding:80px 120px;
+}
+
+.myImage{
+	float:left;
+    width:350px;
+	height:500px;
+	background-image: url("https://i.ibb.co/pJ9S9yf/eu.jpg");
+	background-repeat: no-repeat;
+}
+.aboutPar{
+	width:50%;
+	padding-top:90px;
+	float:right;
+	
+}

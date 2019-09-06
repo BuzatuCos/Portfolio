@@ -50,7 +50,7 @@ header {
  	background-size:cover;
  	background-image: url("http://getwallpapers.com/wallpaper/full/b/8/8/654243.jpg");
 }
-header h1{'
+header h1{
 	font-family: 'Allan'," cursive";
 	padding-top:270px;
 	text-align: center;
@@ -85,6 +85,6 @@ section {
 .aboutPar{
 	width:50%;
 	padding-top:90px;
-	float:right;
-	
+	float:right;	
 }
+

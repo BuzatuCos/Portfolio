@@ -2,9 +2,11 @@
     box-sizing: border-box;
 }
 
+html {
+	font-size: 15px;
+}
 body {
 	margin:0;
-	font-size: 15px;
 	background-color:#000000;
 }
 nav {
@@ -37,6 +39,7 @@ nav li:hover {
 	} 
 header {
 	 margin: 0 auto;
+	 margin-top:100px;
 	 width:75%;	 background-image: -webkit-linear-gradient(282deg, #343434  50%, #5b5b5b 50%);
 }
 header h1{

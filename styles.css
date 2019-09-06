@@ -1,12 +1,13 @@
 * {
     box-sizing: border-box;
+	margin:0;
 }
 
 html {
 	font-size: 15px;
 }
 body {
-	margin:0;
+	
 	background-color:#000000;
 }
 nav {
@@ -38,22 +39,18 @@ nav li:hover {
 	color:#b69a46;
 	} 
 header {
-	 margin: 0 auto;
-	 margin-top:100px;
-	 width:75%;	 background-image: -webkit-linear-gradient(282deg, #343434  50%, #5b5b5b 50%);
+	height:730px;
+ 	background-size:cover;
+ 	background-image: url("http://getwallpapers.com/wallpaper/full/b/8/8/654243.jpg");
 }
-header h1{
-	padding-top:30px;
-	margin-left:15px;
-	text-align: left;
-	font-size:3rem;
-	color: #ffffff;		
-}
-
-header h3{
-	font-family: 'Lobster', 'cursive';
+header h1{'
+	font-family: 'Allan'," cursive";
+	padding-top:270px;
 	text-align: center;
-	font-size:2rem;
+	font-size:4rem;
 	color: #ffffff;	
 	padding-bottom:30px;	
+}
+.myName{
+	color:#b69a46;
 }

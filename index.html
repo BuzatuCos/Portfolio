@@ -4,38 +4,52 @@
 @import url('https://fonts.googleapis.com/css?family=Allan&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="styles.css" />
 <head>
+	<a name="anchor1"></a>
 	<title>Cosmin Andrei Buzatu Portfolio</title>
 </head>
 <body>
 	<nav>
 		<div class="centerNavBar">
 		<ul>
-			<li>Home</li>
-			<li>About Me</li>
-			<li>Portfolio</li>
-			<li>Contact</li>
+			<li><a href="#anchor1">Home</a></li>
+			<li><a href="#anchor2">About Me</a></li>
+			<li><a href="#anchor3">Portfolio</a></li>
+			<li><a href="#anchor4">Contact</a></li>
 		</ul>
 	</div>
 	</nav>
 	 <header>
 		<h1>Hello my name is <span class="myName">Cosmin Buzatu</span> <br> I'm a full stack developer</h1>
 	 </header>
-	 <section>
-	 	<h1 class="h1About">About Me</h1>
+	 <main>
+		 <section class="sectionAbout">
+	 	<h1 class="titleAbout"><a name="anchor2"></a>About Me</h1>
 		<div class="myImage"></div>
 		<div class="aboutPar">
 		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 	</div>
-	 </section>
+    </section>	 
 	 <article>
-		 <h1>Projects</h1>
-	 	<div class="portBox"></div>
-		<div class="portBox"></div>
-		<div class="portBox"></div>
-		<div class="portBox"></div>	
+		 <section class="sectionProjects">
+		 <h1><a name="anchor3"></a>Projects</h1>
+	 	<div class="upperContainer">
+	 	 	<div class="portBox"></div>
+		 	<div class="portBox"></div>
+		 	<div class="portBox"></div>
+		 	<div class="portBox"></div>	
+	    </div>
+		<div class="lowerContainer">
+		 	<div class="portBox"></div>
+		 	<div class="portBox"></div>
+		 	<div class="portBox"></div>
+		 	<div class="portBox"></div>
+		</div> 
+	</section>
 	 </article>
+	 </main>
 </body>
 <html>
 

@@ -33,7 +33,6 @@ a {
 	 font-size: 1.5rem;
 } 
 nav ul {
-	 overflow:auto;
  	 margin:0 auto;
 	 width:675px;
 }
@@ -229,13 +228,13 @@ header{
 	height:400px;
 }
 header h1{
-		font-size:3rem;
-		padding-top:150px;
+	font-size:3rem;
+	padding-top:150px;
 }
 .portBox{
-		width:300px;
-		height:300px;
-		margin-left: 120px;
+	width:300px;
+	height:300px;
+	margin-left: 120px;
 }
 .myImage{
 	width:150px;
@@ -255,14 +254,14 @@ header h1{
 
 @media screen and (max-width: 480px){
 header h1 {
-		font-size:2rem;
+	font-size:2rem;
 }
 .titleAbout{
 	font-size:2rem;
 	padding:40px;
 }	
 .centerNavBar {
-		width: 350px;
+	width: 350px;
 }
 .myImage{
 	width:80px;
@@ -277,13 +276,13 @@ article h1{
 	font-size:2rem;
 }
 .portBox{
-		width:180px;
-		height:180px;
-		margin-left: 60px;
+	width:180px;
+	height:180px;
+	margin-left: 60px;
 }
 a {
-	  margin-right: 30px;
-	  font-size: 1rem;
+    margin-right: 30px;
+	font-size: 1rem;
 }
 .gitLogo img {
 	width:30px;	
@@ -292,6 +291,6 @@ a {
 	font-size:1rem;	
 }
 }
-}
+
 
 

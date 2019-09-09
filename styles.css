@@ -20,7 +20,6 @@ nav {
 	margin: 0 auto;
 	overflow: auto;
 	padding: 10px;
-	text-align:center;
 }
 nav li{
 	list-style:none;
@@ -52,8 +51,7 @@ header h1{
 	padding-top:270px;
 	text-align: center;
 	font-size:4rem;
-	color: #ffffff;	
-	padding-bottom:30px;	
+	color: #ffffff;		
 }
 .myName{
 	color:#b69a46;

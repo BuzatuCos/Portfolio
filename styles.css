@@ -1,8 +1,8 @@
 * {
     box-sizing: border-box;
 	margin:0; 
+	border:1px solid;
 }
-
 html {
 	font-size: 15px;
 }
@@ -59,7 +59,7 @@ header h1{
 .myName{
 	color:#b69a46;
 }
-.sectionAbout {
+section {
 	overflow:auto;
 	width:80%;
 	margin: 0 auto;
@@ -95,11 +95,6 @@ article h1{
 	padding-top:50px;
 	font-family: 'Lobster', 'cursive';
 }
-.sectionProjects{
-	overflow:auto;
-	width:80%;
-	margin: 0 auto;
-}
 .upperContainer{
 	width:1000px;
 	height:300px;
@@ -123,6 +118,22 @@ article h1{
 	box-shadow: 10px 9px 12px 0px rgba(0,0,0,0.75);
  	background-size:cover;
  	background-image: url("http://how2girl.com/wp-content/uploads/2016/11/More-Coming-Soon.png");
+}
+footer{
+	background: linear-gradient(to left, #D3D3D3 0%, #b69a46 100%);
+}
+.gitLogo{
+	float:right;
+}	
+.gitLogo img {
+	width:80px;	
+}
+.contactEmail{
+	display:inline-block;
+	text-align:center;
+	font-family: 'Allan'," cursive";
+	font-size:3rem;	 
+	margin-top:10px;
 }
 @media screen and (max-width: 1200px) {
 	
@@ -156,6 +167,12 @@ article h1{
 a {
 	  margin-right: 60px;
 	  font-size: 1rem;
+}
+.gitLogo img {
+	width:80px;	
+}
+.contactEmail{
+	font-size:2.5rem;	
 }
 }
 
@@ -199,6 +216,12 @@ article{
 background-color:#b69a46;
 width: 100%;
 }
+.gitLogo img {
+	width:60px;	
+}
+.contactEmail{
+	font-size:2rem;	
+}
 }
 
 @media screen and (max-width: 750px) {
@@ -225,11 +248,17 @@ header h1{
 	font-size:0.8rem;
 	margin:30px 0px 170px 0px;
 }
+.gitLogo img {
+	width:40px;	
+}
+.contactEmail{
+	font-size:1.5rem;	
+}
 }
 
 @media screen and (max-width: 480px){
 header h1 {
-		font-size:2rem;/* i don't understand why is not working*/
+		font-size:2rem;
 }
 .titleAbout{
 	font-size:2rem;
@@ -258,10 +287,13 @@ article h1{
 a {
 	  margin-right: 30px;
 	  font-size: 1rem;
- }
- 
- header h1{ 	
- 	font-size:3rem;	
+}
+.gitLogo img {
+	width:30px;	
+}
+.contactEmail{
+	font-size:1rem;	
+}
 }
 }
 

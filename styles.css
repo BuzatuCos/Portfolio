@@ -12,6 +12,7 @@ nav {
 	width: 100%;
 	position: fixed;
 	top: 20px;
+	z-index: 1;
 }
 .centerNavBar {
 	background-color: #1c1c1c;
@@ -23,7 +24,7 @@ nav {
 }
 nav li{
 	list-style:none;
-}		
+}
 a {
 	font-family: 'Lobster', 'cursive';
 	 float:left;
@@ -41,9 +42,9 @@ a:hover {
 } 
 header {
 	width: 100%;
-	height:600px;
+	height:750px;
  	background-size:cover;
- 	background-image: url("http://getwallpapers.com/wallpaper/full/b/8/8/654243.jpg");
+ 	background-image: url("images/header.jpg");
 }
 header h1{
 	font-family: 'Allan'," cursive";
@@ -66,10 +67,11 @@ section {
 	padding:80px 120px;
 }
 .myImage{
+	margin-bottom: 6rem;
 	float:left;
     width:250px;
 	height:400px;
-	background-image: url("https://i.ibb.co/pJ9S9yf/eu.jpg");
+	background-image: url("images/iceland.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position:center center;
@@ -88,32 +90,31 @@ width: 100%;
 article h1{
 	font-size:4rem;
 	text-align:center;
-	padding-top:50px;
+	padding-top:5rem;
+	padding-bottom:1rem;
 	font-family: 'Lobster', 'cursive';
 }
-.upperContainer{
+.projectContainer{
 	width:1000px;
-	height:300px;
+	height:1000px;
 	margin:0 auto;
-	overflow:auto;
-}
-.lowerContainer{
-	width:1000px;
-	height:300px;
-	margin:0 auto;
-	overflow:auto;
+	margin-bottom:40px;
 }
 .portBox{
 	float:left;
-	width:200px;
+	width:400px;
 	height:200px;
 	background:#ffffff;
-	margin-left: 40px;
+	margin-left: 50px;
+	margin-right: 40px;
 	margin-top: 50px;
 	border-radius:20px;
 	box-shadow: 10px 9px 12px 0px rgba(0,0,0,0.75);
- 	background-size:cover;
- 	background-image: url("http://how2girl.com/wp-content/uploads/2016/11/More-Coming-Soon.png");
+	background-image: url("images/commingSoon.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center center;
+
 }
 footer{
 	background: linear-gradient(to left, #D3D3D3 0%, #b69a46 100%);
@@ -122,7 +123,8 @@ footer{
 	float:right;
 }	
 .gitLogo img {
-	width:80px;	
+	margin-top:0.5rem;
+	width:50px;
 }
 .contactEmail{
 	display:inline-block;
@@ -131,8 +133,80 @@ footer{
 	font-size:3rem;	 
 	margin-top:10px;
 }
+
+.geckoGame{
+	background-image: url("images/pairsGame.gif");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center center;
+
+}
+.buttons {
+	width: 100%;
+	text-align: center;
+	margin-top: 80px;
+}
+.buttons a {
+	font-family: 'Allan'," cursive";
+	width: 40%;
+	background-color: #b69a46;
+	color: #fff;
+	transition: .5s;
+	font-size: 1rem;
+	border-style: none;
+	margin: 5%;
+	padding: 0.5rem;
+	border-radius: 10px;
+}
+
+.middle a{
+text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+.recepyGrub{
+	background-image: url("images/GRUB.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center center;
+
+}
+.collection{
+	background-image: url("images/CollectionApp.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center center;
+
+}
+.financeCalculator{
+	background-image: url("images/financeCalculator.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center center;
+
+}
+.planets{
+	background-image: url("images/planets.gif");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center center;
+
+}
+.portal{
+	background-image: url("images/portal.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center center;
+
+}
+
+.overlay:hover {
+	transition: .2s linear;
+	filter: grayscale(90%) blur(2px);
+}
 @media screen and (max-width: 1200px) {
-	
 	.centerNavBar {
 		width: 500px;
 		overflow:hidden;
@@ -141,31 +215,24 @@ footer{
 	font-size:1.5rem;
 	margin:35px 0px 230px 0px;	
 }
-.upperContainer{
-	width:800px;
-	height:240px;
-	margin:0 auto;
-	overflow:auto;
-}
-.lowerContainer{
-	width:800px;
-	height:240px;
-	margin:0 auto;
-	overflow:auto;
+.projectContainer{
+	width:880px;
+	height:900px;
+
 }
 .portBox{
-	float:left;
-	width:160px;
-	height:160px;
-	margin-left: 32px;
-	margin-top: 40px;
+	width:350px;
+	height:175px;
+	margin-left: 35px;
+	margin-right: 25px;
 }
 a {
 	  margin-right: 60px;
 	  font-size: 1rem;
 }
 .gitLogo img {
-	width:80px;	
+	margin-top:0.5rem;
+	width:50px;
 }
 .contactEmail{
 	font-size:2.5rem;	
@@ -187,24 +254,16 @@ a {
 article h1{
 	font-size:3rem;
 }	
-.upperContainer{
-	width:600px;
-	height:500px;
+.projectContainer{
+	width:800px;
+	height:600px;
 	margin:0 auto;
-	overflow:auto;
-	display: inline;
-}
-.lowerContainer{
-	width:600px;
-	height:500px;
-	margin:0 auto;
-	overflow:auto;
-	display:inline;
+	margin-bottom:40px;
 }
 .portBox{
 	float:left;
 	width:200px;
-	height:200px;
+	height:100px;
 	margin-left: 120px;
 	margin-top: 50px;
 }
@@ -213,14 +272,14 @@ background-color:#b69a46;
 width: 100%;
 }
 .gitLogo img {
-	width:60px;	
+	width:40px;
 }
 .contactEmail{
 	font-size:2rem;	
 }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
 .titleAbout{
 	padding:40px 60px;
 }
@@ -233,7 +292,7 @@ header h1{
 }
 .portBox{
 	width:300px;
-	height:300px;
+	height:150px;
 	margin-left: 120px;
 }
 .myImage{
@@ -245,14 +304,23 @@ header h1{
 	margin:30px 0px 170px 0px;
 }
 .gitLogo img {
-	width:40px;	
+	width:35px;
 }
 .contactEmail{
 	font-size:1.5rem;	
 }
+	.projectContainer{
+		width:500px;
+		height:1600px;
+		margin:0 auto;
+		margin-bottom:40px;
+	}
+	.hidden{
+		display: inline-block;
+	}
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 550px){
 header h1 {
 	font-size:2rem;
 }
@@ -277,7 +345,7 @@ article h1{
 }
 .portBox{
 	width:180px;
-	height:180px;
+	height:90px;
 	margin-left: 60px;
 }
 a {
@@ -290,6 +358,15 @@ a {
 .contactEmail{
 	font-size:1rem;	
 }
+	.projectContainer{
+		width:300px;
+		height:1130px;
+		margin:0 auto;
+		margin-bottom:10px;
+	}
+	.hidden{
+		display: inline-block;
+	}
 }
 
 
